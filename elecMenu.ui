@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1111</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1111</width>
+    <height>446</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1111</width>
+    <height>446</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>1071</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255,255,255);
+front : 10pt &quot;MS Shell Dig 2&quot;;
+qproperty-alignment: AlignCenter;</string>
+    </property>
+    <property name="text">
+     <string>1m 미만 소형가전 : 재활용품 배출 시 함께 배출하거나 동주민센터 및 아파트 내 전용수거함에 배출</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="elecButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>100</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255,255,255);
+front : 10pt &quot;MS Shell Dig 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>폐전자제품</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="plasticButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255,255,255);
+front : 10pt &quot;MS Shell Dig 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>플라스틱류</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="paperBagButton">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>20</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255,255,255);
+front : 10pt &quot;MS Shell Dig 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>종이팩류</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>761</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255,255,255);
+front : 10pt &quot;MS Shell Dig 2&quot;;
+qproperty-alignment: AlignCenter;</string>
+    </property>
+    <property name="text">
+     <string>1m 이상 대형가전 : 대형 폐가전 무상방문수거 서비스를 이용해 배출</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="paperButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>20</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255,255,255);
+front : 10pt &quot;MS Shell Dig 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>종이류</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="etcButton">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>100</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255,255,255);
+front : 10pt &quot;MS Shell Dig 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>기타</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="vinylButton">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>20</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255,255,255);
+front : 10pt &quot;MS Shell Dig 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>비닐류</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="canButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255,255,255);
+front : 10pt &quot;MS Shell Dig 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>캔류</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backButton">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>370</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255,255,255);
+front : 10pt &quot;MS Shell Dig 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>뒤로가기</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="glassButton">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>100</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255,255,255);
+front : 10pt &quot;MS Shell Dig 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>유리병류</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tipButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255,255,255);
+front : 10pt &quot;MS Shell Dig 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>TIP</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
